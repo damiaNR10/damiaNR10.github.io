@@ -6,6 +6,10 @@
         margin: 0 auto;
     }
 
+    @media (min-width: $desktop) {
+        //max-width: 100%;
+    }
+
     &__contact {
         padding: 4px 24px;
         border-radius: 64px;
@@ -17,6 +21,37 @@
         text-decoration: none;
         font-size: 20px;
         margin: 0 auto;
+    }
+
+    &__description {
+        text-align: center;
+
+        @media (min-width: $desktop) {
+            max-width: 786px;
+            margin: 0 auto;
+            position: relative;
+            // overflow: hidden;
+
+            &:before, &:after {
+                width: 253px;
+                height: 100%;
+                left: 90%;
+                top: -35px;
+                position: absolute;
+                content: '';
+                background-image: url(/src/assets/img/icon-bracket.svg);
+                background-position: center;
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                transform: rotate(180deg);
+            }
+
+            &:after {
+                transform: rotate(0);
+                right: 90%;
+                left: initial;
+            }
+        }
     }
 
     &__img {
@@ -108,5 +143,6 @@
 
     &__special {
         color: $blue;
+        white-space: nowrap;
     }
 }
