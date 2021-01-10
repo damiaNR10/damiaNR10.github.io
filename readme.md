@@ -1,6 +1,6 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://damianr10.github.io/og.png)
 
-# WTF Webpack Starter Kit 
+<!-- # WTF Webpack Starter Kit 
 
 Simple toolkit for your static websites development.
 
@@ -14,5 +14,14 @@ Click on `Use this template` button to generate a new repository based on this s
 
 `npm run build` - runs build process for production
 
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+`npm run publish` - runs build process and publish the page using `gh-pages` branch -->
 
+# Damian Róg - Junior Frontend Developer
+
+Simple portfolio website
+
+## TOOLS
+
+- WTF Webpack starterkit
+- HTML + JS + CS
+- GitHub API
