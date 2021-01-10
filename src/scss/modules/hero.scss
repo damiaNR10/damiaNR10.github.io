@@ -117,7 +117,7 @@
         display: none;
 
         @media (min-width: $desktop) {
-            display: inline-block;
+            display: flex;
             background-color: $blue;
             color: $white;
             padding: 16px 19px;
