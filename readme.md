@@ -23,5 +23,5 @@ Simple portfolio website
 ## TOOLS
 
 - WTF Webpack starterkit
-- HTML + JS + CS
+- HTML + JS + CSS
 - GitHub API
