@@ -23,7 +23,7 @@ then(resp => {
           <img class="project__img" src="img/github-logo.svg" alt="" />
           <h3 class="project__grid project__title"><span class="project__label">project:</span><span>${name}</span></h3>
           <p class="project__grid project__grid--description"><span class="project__label">description:</span><span>${description}</span></p>
-          <p class="project__grid"><span class="project__label">demo:</span><span>&lt;<a rel="noopener noreferrer" target="_blank" class="project__link" href="${homepage}/${name}" title="${name} - demo">see here</a>&gt;</span></p>
+          <p class="project__grid"><span class="project__label">demo:</span><span>&lt;<a rel="noopener noreferrer" target="_blank" class="project__link" href="${homepage}" title="${name} - demo">see here</a>&gt;</span></p>
           <p class="project__grid"><span class="project__label">github:</span><span>&lt;<a rel="noopener noreferrer" target="_blank" class="project__link" href="${html_url}" title="${name} - code">source code</a>&gt;</span></p>
         </div>
       </article>`;
