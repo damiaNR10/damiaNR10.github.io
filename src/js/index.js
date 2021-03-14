@@ -25,7 +25,7 @@ then(resp => {
           <p class="project__grid"><span class="project__label">github:</span><span>&lt;<a rel="noopener noreferrer" target="_blank" class="project__link" href="${html_url}" title="${name} - code">source code</a>&gt;</span></p>
         </div>
       </article>`;
-        if(description) {
+        if(description && name != 'homepage') {
         container.innerHTML += template;
         }
     }
